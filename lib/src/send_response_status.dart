@@ -1,0 +1,1 @@
+enum SendResponseStatus { SUCCESS, FAIL }
