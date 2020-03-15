@@ -1,6 +1,6 @@
+import 'mailer.dart';
 import 'send_response.dart';
 import 'send_response_status.dart';
-import 'mailer.dart';
 
 class DummyMailer implements Mailer {
   @override
@@ -27,7 +27,7 @@ class DummyMailer implements Mailer {
       print('template: $template');
       print('options: ' + options.toString());
       print('************************');
-      return SendResponse(status: SendResponseStatus.SUCCESS);
+      return SendResponse(status: SendResponseStatus.OK);
     });
   }
 }
