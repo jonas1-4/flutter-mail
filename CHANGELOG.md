@@ -1,3 +1,9 @@
+## 0.0.3
+
+* Add template
+* Add options
+* Add instance
+
 ## 0.0.2
 
 * Minor changes
