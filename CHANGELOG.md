@@ -1,3 +1,7 @@
+## 0.1.0
+
+* Change `SendResponseStatus.QUEUE` to `SendResponseStatus.QUEUED`
+
 ## 0.0.4
 
 * Update `SendResponseStatus`

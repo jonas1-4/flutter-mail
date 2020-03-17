@@ -1,1 +1,1 @@
-enum SendResponseStatus { OK, FAIL, QUEUE }
+enum SendResponseStatus { OK, FAIL, QUEUED }
