@@ -5,16 +5,16 @@ import 'send_response_status.dart';
 class DummyMailer implements Mailer {
   @override
   Future<SendResponse> send(
-      {String from,
+      {String? from,
       List<String> to = const [],
       List<String> cc = const [],
       List<String> bcc = const [],
       List<dynamic> attachments = const [],
-      String subject,
-      String html,
-      String text,
-      String template,
-      Map<String, dynamic> options}) {
+      String? subject,
+      String? html,
+      String? text,
+      String? template,
+      Map<String, dynamic>? options}) {
     return Future.sync(() {
       print('************************');
       print('from: $from');
